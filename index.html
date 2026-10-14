@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Norbury's — Artisan Bakery Café | King's Lynn</title>
+  <meta name="description" content="Norbury's is King's Lynn's artisan bakery café — sourdough, pastries and cakes baked from scratch every morning at 55 High St. Traditional table service, no apps, no fuss.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍞</text></svg>">
+</head>
+<body>
+
+  <!-- ══════════ TOP STRIP ══════════ -->
+  <div class="topbar">
+    <p><span class="topbar-dot" aria-hidden="true"></span> 55 High St, King's Lynn PE30 1BE &nbsp;·&nbsp; Wed 9am – 4pm <span class="topbar-phone">&nbsp;·&nbsp; <a href="tel:+441553762804">01553 762804</a></span></p>
+  </div>
+
+  <!-- ══════════ HEADER ══════════ -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Norbury's home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-word">Norbury's
+          <small>Artisan Bakery Café · King's Lynn</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <a href="#craft">Our Craft</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit Us</a>
+        <a class="btn btn-small btn-honey" href="tel:+441553762804">Call Us</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ══════════ HERO ══════════ -->
+    <section class="hero">
+      <div class="hero-bg" role="img" aria-label="Freshly baked artisan sourdough loaves dusted with flour"></div>
+      <div class="wrap hero-content">
+        <p class="eyebrow reveal">King's Lynn · West Norfolk</p>
+        <h1 class="reveal">Baked from scratch,<br><em>every single morning.</em></h1>
+        <p class="hero-sub reveal">Artisan sourdough, flaky pastries and proper cakes — mixed, proved and baked by hand in our High Street bakery. Then served with traditional table service, the way a café should be.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-honey" href="#menu">See the Menu</a>
+          <a class="btn btn-ghost" href="#visit">Find Us</a>
+        </div>
+        <div class="hero-proof reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span><strong>4.6</strong> · 253 Google reviews — "a homely in-town gem"</span>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#craft" aria-label="Scroll to our craft">↓</a>
+    </section>
+
+    <!-- ══════════ CRAFT / STORY ══════════ -->
+    <section class="section craft" id="craft">
+      <div class="wrap craft-grid">
+        <div class="craft-media reveal">
+          <img src="assets/craft.jpg" alt="Baker's hands kneading fresh dough on a flour-dusted bench" loading="lazy">
+          <div class="craft-badge">
+            <span class="craft-badge-num">100%</span>
+            <span class="craft-badge-txt">made in-house,<br>never bought in</span>
+          </div>
+        </div>
+        <div class="craft-copy">
+          <p class="eyebrow reveal">Our Craft</p>
+          <h2 class="reveal">Flour, water, salt —<br>and a little Norfolk patience.</h2>
+          <p class="reveal">Norbury's is renowned across West Norfolk for one simple reason: everything in our ovens starts from scratch, in our kitchen, on the morning you eat it. Our sourdough proves slowly overnight for that deep, honest flavour. Our pastry is laminated by hand. Our cakes are the kind your gran would approve of.</p>
+          <p class="reveal">Inside you'll find a spotless, relaxed and homely room on the High Street — and proper traditional table service. No booking apps, no QR codes, no fuss. Just sit down, and we'll look after you.</p>
+          <ul class="craft-list reveal">
+            <li><strong>Sourdough proved 18+ hours</strong> for real flavour</li>
+            <li><strong>Local Norfolk flour</strong> where it matters</li>
+            <li><strong>Traditional table service</strong> — sit back, relax</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ MENU ══════════ -->
+    <section class="section menu" id="menu">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">The Bakery Menu</p>
+          <h2 class="reveal">Fresh out of the oven</h2>
+          <p class="section-lede reveal">Baked daily in small batches — when it's gone, it's gone. Pop in early for the full counter.</p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab is-active" role="tab" aria-selected="true" data-tab="loaves">Sourdough &amp; Loaves</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="pastries">Pastries</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="cakes">Cakes &amp; Café</button>
+        </div>
+
+        <div class="menu-panels">
+          <!-- LOAVES -->
+          <div class="menu-panel is-active" id="panel-loaves" role="tabpanel">
+            <div class="menu-grid">
+              <div class="menu-photo"><img src="assets/loaves.jpg" alt="Rows of golden sourdough loaves" loading="lazy"></div>
+              <ul class="menu-list">
+                <li><div><h3>Classic White Sourdough <span class="tag">800g</span></h3><p>Our signature — 18-hour prove, crackling crust</p></div><span class="price">£4.50</span></li>
+                <li><div><h3>Wholemeal Sourdough <span class="tag">800g</span></h3><p>Nutty, hearty, brilliant toasted</p></div><span class="price">£4.80</span></li>
+                <li><div><h3>Seeded Harvest Loaf</h3><p>Linseed, sunflower &amp; pumpkin seed crunch</p></div><span class="price">£4.20</span></li>
+                <li><div><h3>Crusty Farmhouse White</h3><p>The everyday hero — soft crumb, bold crust</p></div><span class="price">£3.20</span></li>
+                <li><div><h3>Norfolk Rye</h3><p>Dark, malty, made for proper butter</p></div><span class="price">£4.60</span></li>
+              </ul>
+            </div>
+          </div>
+          <!-- PASTRIES -->
+          <div class="menu-panel" id="panel-pastries" role="tabpanel" hidden>
+            <div class="menu-grid">
+              <div class="menu-photo"><img src="assets/pastries.jpg" alt="Freshly baked golden croissants on a wooden table" loading="lazy"></div>
+              <ul class="menu-list">
+                <li><div><h3>All-Butter Croissant</h3><p>Laminated over three days — shatteringly flaky</p></div><span class="price">£2.40</span></li>
+                <li><div><h3>Pain au Chocolat</h3><p>Two batons of dark chocolate, naturally</p></div><span class="price">£2.80</span></li>
+                <li><div><h3>Almond Croissant</h3><p>Twice-baked with frangipane &amp; flaked almonds</p></div><span class="price">£3.40</span></li>
+                <li><div><h3>Cinnamon Morning Bun</h3><p>Soft, sticky, generously spiced</p></div><span class="price">£2.95</span></li>
+                <li><div><h3>Pork &amp; Apple Sausage Roll</h3><p>Proper butcher's pork in our flaky pastry</p></div><span class="price">£3.20</span></li>
+              </ul>
+            </div>
+          </div>
+          <!-- CAKES & CAFE -->
+          <div class="menu-panel" id="panel-cakes" role="tabpanel" hidden>
+            <div class="menu-grid">
+              <div class="menu-photo"><img src="assets/cake.jpg" alt="Slice of classic Victoria sponge cake" loading="lazy"></div>
+              <ul class="menu-list">
+                <li><div><h3>Victoria Sponge <span class="tag">slice</span></h3><p>The classic — jam, cream, done properly</p></div><span class="price">£3.50</span></li>
+                <li><div><h3>Carrot Cake <span class="tag">slice</span></h3><p>Spiced, moist, cream-cheese frosted</p></div><span class="price">£3.50</span></li>
+                <li><div><h3>Lemon Drizzle <span class="tag">slice</span></h3><p>Sharp, sticky, dangerously moreish</p></div><span class="price">£3.20</span></li>
+                <li><div><h3>Bakewell Slice</h3><p>Almond frangipane with a cherry on top</p></div><span class="price">£3.40</span></li>
+                <li><div><h3>Flat White / Cappuccino</h3><p>Served to your table, with a smile</p></div><span class="price">£3.20</span></li>
+                <li><div><h3>Proper Builder's Tea</h3><p>Strong, milky, in a proper mug</p></div><span class="price">£2.20</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p class="menu-note reveal">Whole celebration cakes made to order — call <a href="tel:+441553762804">01553 762804</a> with 48 hours' notice.</p>
+      </div>
+    </section>
+
+    <!-- ══════════ GALLERY ══════════ -->
+    <section class="section gallery" id="gallery">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Gallery</p>
+          <h2 class="reveal">From our ovens</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="reveal"><img src="assets/hero.jpg" alt="Artisan sourdough loaves with wheat and flour" loading="lazy"></figure>
+          <figure class="reveal"><img src="assets/counter.jpg" alt="Norbury's bakery counter with fresh bread on wooden shelves" loading="lazy"></figure>
+          <figure class="reveal"><img src="assets/pastries.jpg" alt="Golden croissants fresh from the oven" loading="lazy"></figure>
+          <figure class="reveal"><img src="assets/craft.jpg" alt="Hands kneading dough on a floured bench" loading="lazy"></figure>
+          <figure class="reveal"><img src="assets/cake.jpg" alt="Victoria sponge cake slice" loading="lazy"></figure>
+          <figure class="reveal"><img src="assets/coffee.jpg" alt="Flat white coffee on a café table" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ VISIT ══════════ -->
+    <section class="section visit" id="visit">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Visit Us</p>
+          <h2 class="reveal">Pop in &amp; say hello</h2>
+          <p class="section-lede reveal">You'll find us right on the High Street — follow the smell of fresh bread.</p>
+        </div>
+        <div class="visit-grid">
+          <div class="visit-card reveal">
+            <h3>Find us</h3>
+            <address>
+              Norbury's Artisan Bakery Café<br>
+              55 High St<br>
+              King's Lynn PE30 1BE<br>
+              United Kingdom
+            </address>
+            <p class="visit-links">
+              <a class="btn btn-honey btn-small" href="https://www.google.com/maps/search/?api=1&query=Norbury%27s+55+High+St+King%27s+Lynn+PE30+1BE" target="_blank" rel="noopener">Get Directions</a>
+            </p>
+          </div>
+          <div class="visit-card reveal">
+            <h3>Bakery hours</h3>
+            <table class="hours">
+              <tr><td>Wednesday</td><td><strong>9:00am – 4:00pm</strong></td></tr>
+            </table>
+            <p class="hours-note">We bake in small batches, so call ahead if you're coming for something special — <a href="tel:+441553762804">01553 762804</a>.</p>
+          </div>
+          <div class="visit-card reveal">
+            <h3>Get in touch</h3>
+            <p class="contact-row"><span aria-hidden="true">☎</span> <a href="tel:+441553762804">01553 762804</a></p>
+            <p class="contact-row"><span aria-hidden="true">✉</span> <a href="mailto:norburysbakery@yahoo.com">norburysbakery@yahoo.com</a></p>
+            <p class="hours-note">Cake orders, large sourdough orders &amp; friendly chat — all welcome.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <p><strong>Norbury's</strong><br>Artisan Bakery Café<br>55 High St, King's Lynn PE30 1BE</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#craft">Our Craft</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit Us</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+441553762804">01553 762804</a>
+        <a href="mailto:norburysbakery@yahoo.com">norburysbakery@yahoo.com</a>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© <span id="year">2026</span> Norbury's Bakery Café · Baked with love in King's Lynn</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
